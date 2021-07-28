@@ -27,6 +27,7 @@ function setup() {
 
 function draw() {
     background(rgb("90caf9"));
+    Engine.update(myEngine);
     //hexagon sling
     hexagon.display();
     sling.display();
